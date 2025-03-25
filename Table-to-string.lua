@@ -15,4 +15,4 @@ function Convert(target)
 	return String
 end
 
-print(Convert(Table))
+print(Convert(Table)) -- Will return Table as a String datatype
