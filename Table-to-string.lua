@@ -6,13 +6,13 @@ Table = {
 }
 
 function Convert(target)
-	local String = ""
+ local String = ""
 	
-	for k, v in pairs(target) do
-		String = String.. "\n"..tostring(v)
-	end
+ for k, v in pairs(target) do
+  String = String.. "\n"..tostring(v)
+ end
 	
-	return String
+ return String
 end
 
 print(Convert(Table)) -- Will return Table as a String datatype
