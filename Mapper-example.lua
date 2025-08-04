@@ -14,4 +14,7 @@ local function Mapper(value)
 end
 
 print(Mapper("Red")) -- // Will return "1,0,0"
+print(Colors["Red"]) -- // Same thing
+
 workspace.Baseplate.Color = Mapper("Red") -- // Makes the baseplate red
+workspace.Baseplate.Color = Colors["Red"] -- // Same thing
